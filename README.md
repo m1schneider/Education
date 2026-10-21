@@ -7,9 +7,7 @@ This project compares rainfall data from Seattle and Philadelphia to determine w
 ---
 ## Data
 
-The data analyzed in this project was sourced from the National Oceanic and Atmospheric Administration (NOAA) through the NOAA Climate Data Online (CDO) portal. The data is from two weather stations, one in Seattle and one in Philadelphia. The data spans a total of five years, from January 1, 2018, to December 31, 2022.
-The data can also be accessed through the following link:
-https://www.ncei.noaa.gov/cdo-web/
+The data for this project was from two sources. The school data was from the National Center for Education Statistics (NCES) and provided the data to determine if a school was a high school, based on the unique ID provided to each school. The other data source was from EdGap, which provided the data for each school's average ACT score, median household income, the percentage of students on a free/reduced price lunch, and the percentage of adults with a college degree. 
 
 
 ---
