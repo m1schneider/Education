@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project compares rainfall data from Seattle and Philadelphia to determine which city receives more rainfall annually and experiences a greater proportion of rainy days throughout the year. The null hypotheses are that the mean daily rainfall and the proportion of rainy days are equal between the two cities.
+This project analyzes high school data and ACT scores to examine the relationship between socioeconomic factors and academic performance. A multiple linear regression model is used to assess the strength of these relationships and identify which socioeconomic variables are most strongly associated with academic performance.
+The ACT is a standardized exam used by colleges and universities to measure academic readiness. The exam is graded on a scale of 1 to 36. According to summary statistics published by the ACT in 2023, 37% of high school graduates took the ACT, and the national average score was 19.5 (ACT, 2023). ACT scores can determine admission to a university, as well as influence the outcome of merit-based scholarships.
+This study aims to determine whether ACT scores should continue to be used as a measure of student preparedness for college coursework or whether they are too heavily influenced by socioeconomic factors to be deemed useful.
+
 
 ---
 ## Data
@@ -176,15 +179,7 @@ results_proportion.style.format({
 
 ---
 ## Results
-Seattle and Philadelphia were the focus locations of this project, and the key questions that were answered were which city has a higher mean daily rainfall in terms of inches and which city sees a higher proportion of rainy days throughout the year. We also presented a null hypothesis that both cities have the same daily mean rainfall, and that both cities have the same proportion of rainy days throughout the year. 
-  
-In terms of mean annual rainfall, Philadelphia averaged 18.5% more rain throughout the year. In terms of the proportion of days with rain, on the other hand, Seattle averaged 52.4% more days with rain throughout the year compared to Philadelphia. These were yearly averages, and there was a lot of variety each month of the year.  
-
-When we looked at the monthly patterns in the data, the difference in mean daily rainfall was statistically significant in 8 out of 12 months. The only months that were not statistically significant were February, March, April, and October. This allowed us to reject our null hypothesis that the average daily rainfall in Seattle and Philadelphia was equal for 8 out of 12 months.
-
-When we looked at the monthly patterns in the proportion of rainy days, the difference in the proportions of rainy days was statistically significant in 8 out of 12 months. The months that were not statistically significant were May, June, August, and September. This allowed us to reject our null hypothesis that the proportions of rainy days were equal in Seattle and Philadelphia for 8 out of the 12 months of the year.
-
-This study focused on analyzing precipitation data in Philadelphia and Seattle. However, a limitation of the study is that our data covered only a 5-year period. This may be insufficient to predict future weather patterns, as well as to generalize historical weather patterns. That being said, this study was able to reject our null hypotheses that the mean daily rainfall and the proportion of rainy days were equal in both cities in 8 out of the 12 months.
+Our model included three explanatory variables of interest: median household income, percentage of students receiving free/reduced price lunches, and the percentage of adults with a college degree. The model explained 62.6% of the variation in ACT scores, suggesting that socioeconomic factors are associated with academic performance. Two of the three explanatory variables of interest were statistically significant, with the percentage of students receiving free or reduced-price lunch showing the strongest negative association. Median household income had the weakest association and was not statistically significant (p = 0.3973). These results indicate that socioeconomic factors are associated with ACT performance. Given the significant influence ACT scores can have on a high school student's future college opportunities and academic support, these standardized testing measures should be reevaluated.
 
 
 ---
